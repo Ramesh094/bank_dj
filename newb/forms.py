@@ -6,7 +6,7 @@ class AccountForm(forms.Form):
     dob = forms.DateField(required=True)
     mobile = forms.IntegerField(required=True)
     aadhar = forms.IntegerField(required=True)
-
+# just checking can i change the code via github
 # class AccountForm(forms.ModelForm):
 #     class Meta:
 #         model = Accounts
