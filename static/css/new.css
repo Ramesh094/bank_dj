@@ -1,0 +1,42 @@
+.create {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(197, 172, 104);
+    padding: 3em 5em;
+    border-radius: 10px;
+    width: 30%;
+    padding-bottom: 10px;
+}
+
+.container label {
+    font-size: 28px;
+    color: rgb(21, 21, 83);
+    font-weight: 600;
+    margin-left: 20px;
+    width: 100px;
+}
+
+.container input {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.container button {
+    display: block;
+    margin: 1em auto;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 15%;
+    background-color: rgb(113, 190, 129);
+    color: rgb(24, 17, 23);
+}
+
+.container button:hover {
+    color: red;
+}

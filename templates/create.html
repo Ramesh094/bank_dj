@@ -1,0 +1,21 @@
+{% extends "home.html" %}
+{% block title %}Create{% endblock %}
+{% load static %}
+
+{% block cr_css %} 
+<link rel="stylesheet" href="{%static 'css/new.css' %}"> 
+{%endblock%}
+
+{% block content %}
+<form class='create' method="post" action="{% url 'c_emp' %}">
+    {% csrf_token %}
+    <div class="container">
+
+        {{ form.as_p }}
+
+        <button type="submit">Submit</button>
+    </div>
+</form>
+{% endblock %}
+
+

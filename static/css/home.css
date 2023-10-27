@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://uploads-ssl.webflow.com/63c14315b818a31b179512a3/642a5e5a0700e36fe5967a17_open-banking-1200-1662083126.jpg');
+    background-size: cover;
+}
+
+.temp {
+    background-color: rgb(250, 250, 229);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+}
+
+h1 {
+    color: rgb(43, 46, 73);
+}
+
+h3 span {
+    color: rgb(216, 33, 9);
+}
+
+h3 {
+    color: rgb(25, 43, 58);
+    font-style: italic;
+    font-size: 24px;
+}
+
+h1 span {
+    background-image: linear-gradient(to left, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+}
+
+.navbar a {
+    font-size: 20px !important;
+    color: aliceblue !important;
+    margin-right: 20px !important;
+}
+
+.login_form {
+    display: flex;
+    margin: 6em auto;
+    justify-content: center;
+}
+
+.login_form div {
+    background-color: rgb(176, 140, 177);
+    padding: 80px;
+    color: rgb(14, 7, 34);
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: 8px 8px 8px 0 rgb(27, 24, 26);
+}
+
+.login_form input:first-child {
+    margin-bottom: 20px;
+}
+
+.login_form input {
+    font-size: 24px;
+    border: none;
+    color: rgb(5, 92, 133);
+    
+}
+
+.login_form button {
+    display: block;
+    margin: 1em auto auto auto;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 0.5em 1em;
+    background-color: rgb(120, 211, 124);
+    color: rgb(34, 34, 104);
+    font-weight: 700;
+}
+
+.login_form button:hover {
+    background-color: rgb(238, 179, 70);
+    color: red;
+}
+
