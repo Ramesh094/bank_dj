@@ -3,7 +3,7 @@
 import os
 import sys
 
-
+var_na  = 'ram'
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bank_django.settings')
